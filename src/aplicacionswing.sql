@@ -343,4 +343,4 @@ COMMIT;
 --
 --query para el login
 --
---SELECT * FROM login WHERE usuario = '"+usuario+"'&&password='"+password+"'
+--SELECT * FROM login WHERE Usuario = '"+usuario+"'&&Password='"+password+"'

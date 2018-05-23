@@ -50,7 +50,7 @@ public class Login extends JFrame {
 	}
 	void ingresar(String usuario, String password) {
 		String captura ="";
-		String sql="SELECT * FROM login WHERE usuario = '"+usuario+"'&&password='"+password+"'";
+		String sql="SELECT * FROM login WHERE Usuario = '"+usuario+"'&&Password='"+password+"'";
 		try {
 			Statement st =conexion.createStatement();
 			ResultSet rs = st.executeQuery(sql);
