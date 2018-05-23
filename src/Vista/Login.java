@@ -48,6 +48,7 @@ public class Login extends JFrame {
 			e.printStackTrace();
 		}
 	}
+	
 	void ingresar(String usuario, String password) {
 		String captura ="";
 		String sql="SELECT * FROM login WHERE Usuario = '"+usuario+"'&&Password='"+password+"'";
